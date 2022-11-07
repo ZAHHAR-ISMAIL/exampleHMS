@@ -5,12 +5,14 @@ buildscript {
         google()
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon
+        maven {url 'https://developer.huawei.com/repo/'}
     }
 
     dependencies {
 
         classpath 'com.android.tools.build:gradle:3.6.1'
         classpath 'com.google.gms:google-services:4.3.5'
+        classpath 'com.huawei.agconnect:agcp:1.6.0.300'
     }
 }
 
@@ -19,6 +21,7 @@ allprojects {
         google()
         mavenCentral()
         jcenter() // Warning: this repository is going to shut down soon
+        maven {url 'https://developer.huawei.com/repo/'}
     }
 }
 
