@@ -1,3 +1,3 @@
 
-rootProject.name = "kitFinal"
+rootProject.name = "Demo Presto App HMS"
 include ':app'
